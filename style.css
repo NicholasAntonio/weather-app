@@ -108,6 +108,7 @@ body{
 .weather-details{
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-top: 30px;
 }
@@ -127,6 +128,7 @@ body{
 .weather-details .wind{
     padding-right: 20px;
     justify-content: flex-start;
+    
 }
 
 .weather-details i{
@@ -138,8 +140,9 @@ body{
 
 .weather-details span{
     color: #050B6F;
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 500;
+    margin-left: 5px;
 }
 
 .weather-details p{
@@ -177,3 +180,4 @@ body{
         opacity: 1;
     }
 }
+
